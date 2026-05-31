@@ -1,8 +1,0 @@
-hostname = input("Digite o Hostname: ")
-ip = input("Digite o IP: ")
-modelo = input("Digite o Modelo do Dispositivo: ")
-loc = input("Digite a sua Localização: ")
-print("Hostname: ", hostname)
-print("IP: ", ip)
-print("Modelo do Dispositivo: ", modelo)
-print("Localização: ", loc)
