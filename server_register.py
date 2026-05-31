@@ -1,0 +1,8 @@
+hostname = input("Digite o Hostname: ")
+ip = input("Digite o IP: ")
+sys_op = input("Digite o Sistema Operativo: ")
+ram = input("Digite o Valor da Memória RAM: ")
+print("Hostname: ", hostname)
+print("IP: ", ip)
+print("Sistema Operativo: ", sys_op)
+print("Memória RAM: ", ram)
