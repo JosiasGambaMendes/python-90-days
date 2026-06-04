@@ -8,7 +8,12 @@ def collatz(number):
     print(result)
     return result
 
-typNum = int(input("Type an Integer Number: "))
+while True:
+    try:
+        typNum = int(input("Type an Integer Number: "))
+        break
+    except ValueError:
+        print("You must enter an integer.")
 
 while typNum != 1:
     typNum = collatz(typNum)
